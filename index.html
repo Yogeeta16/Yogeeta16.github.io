@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="custom.css">
+	<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+           
+            
+            <div class="title-bar">
+				<img src="LOGO1.png">
+                <h2 class="headText"> CARE FOUNDATION </h2>
+				
+                <div class="home title-bar-icon"><a href="#idHome-content">Home</a></div>
+                <div class="about title-bar-icon"><a href="#idabout-content">About</a></div>
+                <div class="gallery title-bar-icon"><a href="#idgallery">Gallery</a></div>
+                <div class="contact title-bar-icon"><a href="#idcontact-us">Contact Us</a></div>
+                <div class="donate title-button-icon"><button class="button"><a class="Donate" href="https://rzp.io/l/N0ChamHgmh">DONATE</a> </button></div>
+            </div>
+     <section class="hero_image"id="idHome-content">
+		<div class="hero_wrapper">
+			<h1><b>Our Mission</b></h1>
+			<p>To save lives, enable social protection and defeat poverty.</p>
+			<h1><b>Our Vision</b></h1>
+			
+			<p>We seek a world of hope that is inclusive and just, where all people live in dignity and security.
+			</p>
+		
+		</div>
+		
+	</section>
+
+	<section class="product"id="idabout-content">
+		<div class="product__list__item">
+			<br><br><br><br><br><br><br>
+			<img class="img-responsive" src="akes-india_r_0_0.jpg" alt="  ">
+			<h2 class="product_heading" >
+				
+				EDUCATION
+			</h2>
+			<p style="font-family:Arial Narrow " style= " line-height:2">CARE Foundation has been working for 25 years to ensure quality elementary education for children, especially girls and those from marginalized communities, to help them become the leaders and changemakers of the future. We see education as an imperative tool for girls to realize their maximum potential by gaining crucial skills and dispositions that set them on the path of social and economic empowerment.</p>
+		</div>
+		<div class="product__list__item">
+			<br><br><br><br><br><br><br>
+			<img class="img-responsive" src="livelihood1.jpg" alt="  ">
+			<h2 class="product_heading" >
+				<br>
+				LIVELIHOODS
+			</h2>
+			<br>
+			<p style="font-family:Arial Narrow " style= " line-height:2">CARE India’s Livelihood mandate works with the women engaged in smallholder agriculture, small businesses or employed as farm or non-farm labour. Implementing a range of innovative initiatives, we help women build secure and resilient livelihoods and climb out of poverty permanently. The key approaches adopted in livelihood sector initiatives include capability enhancement, asset building, collectivisation, inclusive value chain development and engagement of men and other influential actors.</p>
+		</div>
+
+		<div class="product__list__item1">
+			<br><br><br><br><br><br><br>
+			<img class="img-responsive" src="healthcare1.jpg" alt="  ">
+			<h2 class="product_heading">
+				HEALTH CARE 
+			</h2>
+			<p style="font-family:Arial Narrow " style= "line-height:2">CARE FOUNDATION’s Health interventions work to improve the access to quality healthcare services for the poor and marginalised communities. By identifying the root causes of healthcare challenges, we work at the individual, community, and systemic levels to develop innovative solutions and help implement quality healthcare services. The ambit of our work includes improving of maternal and reproductive health, child health and nutrition, and early identification and treatment of communicable diseases.</p>
+		</div>
+		<div class="product__list__item1">
+			<br><br><br><br><br><br><br>
+			<img class="img-responsive" src="equal..jpg" alt="  ">
+			<h2 class="product_heading">
+				<br>
+				GENDER EQUALITY
+			</h2>
+			<br>
+			<p style="font-family:Arial Narrow " style= "line-height:2">Gender equality lies at the core of all the work that CARE India does. Deep rooted gender inequitable relations, power dynamics and social norms in India add to the vulnerabilities and marginalisation of women in many communities. Our aim is to bring a gender transformative change at the individual, household, and community levels.</p>
+		</div>
+		<div class="product__list__item2">
+			<br><br><br><br><br><br><br>
+			<img class="img-responsive" src="disaster3.jpg" alt="  ">
+			<h2 class="product_heading" >
+				
+				DISASTER RELIEF
+			</h2>
+			
+			<p style="font-family:Arial Narrow " style= "line-height:2">CARE FOUNDATION's Disaster Management initiative works to provide rapid and effective relief measures to the regions impacted by natural calamities. Our strategy encompasses Preparedness, Response, Recovery, and Rehabilitation with an approach of ‘Building Back Safer’. We use post disaster recovery programming to increase the resilience of buildings and communities to future hazards.</p>
+		</div>
+        
+		<div class="product__list__item2">
+			<br><br><br><br><br><br><br>
+			<img class="img-responsive" src="food2.jpg" alt="  ">
+			<h2 class="product_heading">
+				<br>
+				FOOD  DONATION CAMP 
+			</h2>
+			<br>
+			<p style="font-family:Arial Narrow" style= "line-height:2">Donating food is considered one of the highest forms of wholesome act to acquire salvation. Food is required to sustain life in any living being. But there are numerous people who spend their day without sight of food. Offering food to the needy and poor people is like giving back their lives. There can’t be any noble service than this. Temple trust is providing free foods daily to the poor people, devotees and sages coming there. It provides food twice daily to more than 500 people with the help of donation coming from generous people from various regions. It also organizes food and health camp for the pilgrimage for devotees in various religious places. Be a part of this generous project by donating food or cash to this organization.</p>
+		</div>
+
+      <script>var myIndex = 0;
+        carousel();
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("product__list__item");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 5000); // Change image every 5 seconds
+        }</script>
+
+		<script>var myIndex1 = 0;
+			carousel1();
+			function carousel1() {
+			  var i;
+			  var x = document.getElementsByClassName("product__list__item1");
+			  for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			  }
+			  myIndex1++;
+			  if (myIndex1 > x.length) {myIndex1 = 1}    
+			  x[myIndex1-1].style.display = "block";  
+			  setTimeout(carousel1, 5000); // Change image every 5 seconds
+			}</script>
+
+			<script>var myIndex2 = 0;
+				carousel2();
+				function carousel2() {
+				  var i;
+				  var x = document.getElementsByClassName("product__list__item2");
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				  }
+				  myIndex2++;
+				  if (myIndex2 > x.length) {myIndex2 = 1}    
+				  x[myIndex2-1].style.display = "block";  
+				  setTimeout(carousel2, 5000); // Change image every 5 seconds
+				}</script>
+
+	</section>
+	<section>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+	</section>
+    <section>
+    <h1 class="Gallery-heading" id="idgallery"> <br>Gallery</h1>
+    <div class="gallery">
+        
+        <img src="health2.jpg">
+		<img src="health3.jpeg" >
+		<img src="education1.jpg" >
+		<img src="healthcare1.jpg" >
+		<img src="heroimage2.jpg" >
+		<img src="education2.jpg">
+		<img src="food1.jpg">
+		<img src="f.jpg">
+		<img src="disaster2.jpg" >
+		<img src="f.jpg">
+		<img src="disaster3.jpg">
+		<img src="maxresdefault.jpg" >
+		<img src="ruralshores2.jpg">
+		<img src="food2.jpg">
+		<img src="livelihood2.jpg">
+		<img src="livelihood3.jpg">
+		<img src="equal..jpg">
+		<img src="livelihood1.jpg">
+    </div>
+	
+    <div class="contact-us" id="idcontact-us">
+      <h1>Contact Us</h1>
+      <div class="contact-icons">
+      <div class="phone">
+      <div class="material-icons call-icon icons">phone_in_talk : </div>
+      <div class="icons">+91999999999</div>
+      </div>
+
+      <div class="mail">
+          <div class="material-icons Mail-icon icons">email : </div>
+          <div class="icons">carefoundation@gmail.com</div>
+      </div>
+
+      <div class="whatsapp">
+          <div class="material-icons whatsapp-icon icons">whatsapp : </div>
+          <div class="icons">+919999999999</div>
+      </div>
+      </div>
+      </div>
+      <div class="Copyright-footer">
+          <div class="Copyright">Copyright</div>
+          <i class="material-icons" style="color: rgb(92, 86, 211);"></i>
+          <div class="Copyright"> Ⓒ 2021 Yogeeta Bodade. All Rights Reserved</div>
+      </div>
+    </section>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</html>
