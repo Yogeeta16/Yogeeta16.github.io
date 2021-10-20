@@ -70,7 +70,7 @@ body {
 }
 
 .hero_image {
-	background: url(images/heroimage8.jpg) no-repeat;
+	background: url(heroimage8.jpg) no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 100vh;
