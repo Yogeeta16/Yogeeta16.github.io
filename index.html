@@ -1,196 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="custom.css">
-	<link rel="stylesheet" href="responsive.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment GateWay </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
 </head>
 <body>
-           
-            
-            <div class="title-bar">
-				<img src="images/LOGO1.png">
-                <h2 class="headText"> CARE FOUNDATION </h2>
-				
-                <div class="home title-bar-icon"><a href="#idHome-content">Home</a></div>
-                <div class="about title-bar-icon"><a href="#idabout-content">About</a></div>
-                <div class="gallery title-bar-icon"><a href="#idgallery">Gallery</a></div>
-                <div class="contact title-bar-icon"><a href="#idcontact-us">Contact Us</a></div>
-                <div class="donate title-button-icon"><button class="button"><a class="Donate" href="https://rzp.io/l/N0ChamHgmh">DONATE</a> </button></div>
-            </div>
-     <section class="hero_image"id="idHome-content">
-		<div class="hero_wrapper">
-			<h1><b>Our Mission</b></h1>
-			<p>To save lives, enable social protection and defeat poverty.</p>
-			<h1><b>Our Vision</b></h1>
-			
-			<p>We seek a world of hope that is inclusive and just, where all people live in dignity and security.
-			</p>
-		
-		</div>
-		
-	</section>
 
-	<section class="product"id="idabout-content">
-		<div class="product__list__item">
-			<br><br><br><br><br><br><br>
-			<img class="img-responsive" src="images/akes-india_r_0_0.jpg" alt="  ">
-			<h2 class="product_heading" >
-				
-				EDUCATION
-			</h2>
-			<p style="font-family:Arial Narrow " style= " line-height:2">CARE Foundation has been working for 25 years to ensure quality elementary education for children, especially girls and those from marginalized communities, to help them become the leaders and changemakers of the future. We see education as an imperative tool for girls to realize their maximum potential by gaining crucial skills and dispositions that set them on the path of social and economic empowerment.</p>
-		</div>
-		<div class="product__list__item">
-			<br><br><br><br><br><br><br>
-			<img class="img-responsive" src="images/livelihood1.jpg" alt="  ">
-			<h2 class="product_heading" >
-				<br>
-				LIVELIHOODS
-			</h2>
-			<br>
-			<p style="font-family:Arial Narrow " style= " line-height:2">CARE India’s Livelihood mandate works with the women engaged in smallholder agriculture, small businesses or employed as farm or non-farm labour. Implementing a range of innovative initiatives, we help women build secure and resilient livelihoods and climb out of poverty permanently. The key approaches adopted in livelihood sector initiatives include capability enhancement, asset building, collectivisation, inclusive value chain development and engagement of men and other influential actors.</p>
-		</div>
+<!-- custom cursors  -->
+<div class="cursor-1"></div>
+<div class="cursor-2"></div>
 
-		<div class="product__list__item1">
-			<br><br><br><br><br><br><br>
-			<img class="img-responsive" src="images/healthcare1.jpg" alt="  ">
-			<h2 class="product_heading">
-				HEALTH CARE 
-			</h2>
-			<p style="font-family:Arial Narrow " style= "line-height:2">CARE FOUNDATION’s Health interventions work to improve the access to quality healthcare services for the poor and marginalised communities. By identifying the root causes of healthcare challenges, we work at the individual, community, and systemic levels to develop innovative solutions and help implement quality healthcare services. The ambit of our work includes improving of maternal and reproductive health, child health and nutrition, and early identification and treatment of communicable diseases.</p>
-		</div>
-		<div class="product__list__item1">
-			<br><br><br><br><br><br><br>
-			<img class="img-responsive" src="images/equal..jpg" alt="  ">
-			<h2 class="product_heading">
-				<br>
-				GENDER EQUALITY
-			</h2>
-			<br>
-			<p style="font-family:Arial Narrow " style= "line-height:2">Gender equality lies at the core of all the work that CARE India does. Deep rooted gender inequitable relations, power dynamics and social norms in India add to the vulnerabilities and marginalisation of women in many communities. Our aim is to bring a gender transformative change at the individual, household, and community levels.</p>
-		</div>
-		<div class="product__list__item2">
-			<br><br><br><br><br><br><br>
-			<img class="img-responsive" src="images/disaster3.jpg" alt="  ">
-			<h2 class="product_heading" >
-				
-				DISASTER RELIEF
-			</h2>
-			
-			<p style="font-family:Arial Narrow " style= "line-height:2">CARE FOUNDATION's Disaster Management initiative works to provide rapid and effective relief measures to the regions impacted by natural calamities. Our strategy encompasses Preparedness, Response, Recovery, and Rehabilitation with an approach of ‘Building Back Safer’. We use post disaster recovery programming to increase the resilience of buildings and communities to future hazards.</p>
-		</div>
+
+<div id="menu-bars" class="fas fa-bars"></div>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"> <span>Public-Spirited </span> Media  </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
         
-		<div class="product__list__item2">
-			<br><br><br><br><br><br><br>
-			<img class="img-responsive" src="images/food2.jpg" alt="  ">
-			<h2 class="product_heading">
-				<br>
-				FOOD  DONATION CAMP 
-			</h2>
-			<br>
-			<p style="font-family:Arial Narrow" style= "line-height:2">Donating food is considered one of the highest forms of wholesome act to acquire salvation. Food is required to sustain life in any living being. But there are numerous people who spend their day without sight of food. Offering food to the needy and poor people is like giving back their lives. There can’t be any noble service than this. Temple trust is providing free foods daily to the poor people, devotees and sages coming there. It provides food twice daily to more than 500 people with the help of donation coming from generous people from various regions. It also organizes food and health camp for the pilgrimage for devotees in various religious places. Be a part of this generous project by donating food or cash to this organization.</p>
-		</div>
+        <a href="#objective">Objective</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">contact</a>
+    </nav>
 
-      <script>var myIndex = 0;
-        carousel();
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("product__list__item");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 5000); // Change image every 5 seconds
-        }</script>
-
-		<script>var myIndex1 = 0;
-			carousel1();
-			function carousel1() {
-			  var i;
-			  var x = document.getElementsByClassName("product__list__item1");
-			  for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";  
-			  }
-			  myIndex1++;
-			  if (myIndex1 > x.length) {myIndex1 = 1}    
-			  x[myIndex1-1].style.display = "block";  
-			  setTimeout(carousel1, 5000); // Change image every 5 seconds
-			}</script>
-
-			<script>var myIndex2 = 0;
-				carousel2();
-				function carousel2() {
-				  var i;
-				  var x = document.getElementsByClassName("product__list__item2");
-				  for (i = 0; i < x.length; i++) {
-					x[i].style.display = "none";  
-				  }
-				  myIndex2++;
-				  if (myIndex2 > x.length) {myIndex2 = 1}    
-				  x[myIndex2-1].style.display = "block";  
-				  setTimeout(carousel2, 5000); // Change image every 5 seconds
-				}</script>
-
-	</section>
-	<section>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		
-	</section>
-    <section>
-    <h1 class="Gallery-heading" id="idgallery"> <br>Gallery</h1>
-    <div class="gallery">
-        
-        <img src="images/health2.jpg">
-		<img src="images/health3.jpeg" >
-		<img src="images/education1.jpg" >
-		<img src="images/healthcare1.jpg" >
-		<img src="images/heroimage2.jpg" >
-		<img src="images/education2.jpg">
-		<img src="images/food1.jpg">
-		<img src="images/f.jpg">
-		<img src="images/disaster2.jpg" >
-		<img src="images/f.jpg">
-		<img src="images/disaster3.jpg">
-		<img src="images/maxresdefault.jpg" >
-		<img src="images/ruralshores2.jpg">
-		<img src="images/food2.jpg">
-		<img src="images/livelihood2.jpg">
-		<img src="images/livelihood3.jpg">
-		<img src="images/equal..jpg">
-		<img src="images/livelihood1.jpg">
+    <div class="follow">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
     </div>
-	
-    <div class="contact-us" id="idcontact-us">
-      <h1>Contact Us</h1>
-      <div class="contact-icons">
-      <div class="phone">
-      <div class="material-icons call-icon icons">phone_in_talk : </div>
-      <div class="icons">+91999999999</div>
-      </div>
 
-      <div class="mail">
-          <div class="material-icons Mail-icon icons">email : </div>
-          <div class="icons">carefoundation@gmail.com</div>
-      </div>
+</header>
 
-      <div class="whatsapp">
-          <div class="material-icons whatsapp-icon icons">whatsapp : </div>
-          <div class="icons">+919999999999</div>
-      </div>
-      </div>
-      </div>
-      <div class="Copyright-footer">
-          <div class="Copyright">Copyright</div>
-          <i class="material-icons" style="color: rgb(92, 86, 211);"></i>
-          <div class="Copyright"> Ⓒ 2021 Yogeeta Bodade. All Rights Reserved</div>
-      </div>
-    </section>
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <!-- <span class="hi"> ...... </span> -->
+        <h3> Public-Spirited  <span> MEDIA </span> </h3>
+        <p class="info"> Note From The Founding Editors  </p>
+        <p class="text"> Instead of the traditional models of family-owned, corporate-funded and controlled or advertising-driven newspapers, websites and TV channels, can we reimagine the media as a joint venture in the public sphere between journalists, readers and a concerned citizenry? One in which decisions over what to cover and how, who to hire and where to send a correspondent or photographer, are taken by editors on the basis of professional judgment, without worrying about what a proprietor or politician, official or advertiser might think or want. </p>
+        <a href="#about" class="btn">About Us</a>
+    </div>
+
+    <div class="image">
+        <img src="LOGO1.png" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> About <span> Us </span> </h1>
+
+<div class="row-1">
+
+    <div class="image">
+        <img src="LOGO1.png" alt="">
+    </div>
+   
+    <div class="content">
+        <h3> Our Mission </h3>
+        <p>Independent Media will lead the new media revolution by helping to build and strengthen a democratic country and grow our presence both locally and internationally.
+        </p>
+        <br><br>
+        <h3> Our Vision </h3>
+        <p>Building independent and public-interest media.</p>
+        <br>
+       
+        <a href="https://rzp.io/l/N0ChamHgmh" class="btn">Donate</a>
+        <a href="#contact" class="btn">Contact us </a>
+    </div>
+
+</div>
+
+<h1 class="heading"> <span> our </span> portfolio</h1>
+
+<div class="row-2">
+
+    <div class="skills">
+        <div class="progress">
+            <h3> Reader Support<span> 38% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> Independent & public spirited media Foundation<span> 45% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> Advertising & sponsorships<span> 49% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> other commercial income<span> 8% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> >> 2+ </h3>
+            <p>years of experience</p>
+        </div>
+        <div class="box">
+            <h3> >> 250+ </h3>
+            <p>happy clients</p>
+        </div>
+        <div class="box">
+            <h3> >> 10+ </h3>
+            <p>language</p>
+        </div>
+        <div class="box">
+            <h3> >> 2+ </h3>
+            <p>awards won</p>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+
+<!-- objective section starts  -->
+
+<section class="objective" id="objective">
+
+    <h1 class="heading"> <span>Our</span> Objective  </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="content">
+                
+                <h3> Encourages attainment of higher editorial standards</h3>
+               </div>
+        </div>
+
+     
+        <div class="box">
+            <div class="content">
+                
+                <h3>Influences public debate</h3>
+                </div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                
+                <h3>Challenges and complements mainstream media</h3>
+              
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                
+                <h3>Fosters independent, public-interest journalism</h3>
+              
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                
+                <h3>All free of government influence</h3>
+              
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="content">
+                
+                <h3>Empowers individuals to exercise their democratic rights</h3>
+               
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- objective section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"> <span> our </span> Gallery </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="1.png" alt="">
+            
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="2.png" alt="">
+          
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="3.png" alt="">
+            
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="4.png" alt="">
+           
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="5.png" alt="">
+   
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="6.png" alt="">
+         
+            <div class="icons">
+                <a href="#" class="fas fa-link"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+<section class="donate" id="donate">
+    <h1 class="heading"> Donate </h1>
+    <div class="row-1">
+
+        <div class="image">
+            <img src="donate.png" alt="">
+        </div>
+       
+        <div class="content">
+            
+            <p>We believes in independence, and remains free from political or corporate funding.</p>
+            <p>We rely on your donations and support. Please consider making a donation to help secure our future.</p>
+            <p> It is our belief that independent journalism can thrive; it needs to be community driven and free from external pressures and control.</p>
+            <p>Join us in making that belief a reality</p>
+            <br>
+           
+            <a href="https://rzp.io/l/N0ChamHgmh" class="btn">Donate</a>
+            
+        </div>
+    
+    </div>
+
+   
+</section>
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> contact <span> us </span> </h1>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            
+            <p>publicspiritedmedia@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>number</h3>
+            <p>+91 9999999999</p>
+            
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>address</h3>
+            <p>South West Delhi, India - 110078</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <form action="">
+
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+
+            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" class="btn" value="send message">
+
+        </form>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56043.265255796694!2d76.9982322238275!3d28.608653101221634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ac978128e37%3A0x5ffa5335ad2cc2a3!2sNew%20Delhi%2C%20Delhi%20110078!5e0!3m2!1sen!2sin!4v1642176559363!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        
+    </div>
+
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+<footer class="footer"> created by <span> yogeeta bodade and janvi goel  </span> | all rights reserved! </footer>
+
 </body>
-<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 </html>
